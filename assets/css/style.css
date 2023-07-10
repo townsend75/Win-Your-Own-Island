@@ -31,16 +31,20 @@ header {
 }
 
 
-
+/*
 #island-one {
     background: url(../images/Filicudi5.jpeg) no-repeat center center;
     height: 600px;
     width: 33%;
     margin: 0 auto;
-}
+}*/
 
 #prize-pic {
     border: 1px solid blue;
+    background: url(../images/Filicudi5.jpeg) no-repeat center center;
+    height: 600px;
+    display: block;
+
 
 }
 
@@ -55,12 +59,18 @@ header {
 #middlebox {
     width: 33%;
     margin: 0 auto;
+    padding: 10px;
+    clear: both;
+
 }
 
 #leftbox {
     float: left;
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     width: 33%;
+    padding: 30px;
+
 
 }
 
@@ -71,7 +81,7 @@ header {
 }
 
 .about-us {
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
 }
 
