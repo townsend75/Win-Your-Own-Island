@@ -41,6 +41,7 @@ header {
 
 #prize-pic {
     border: 1px solid blue;
+
 }
 
 #prize-pic h2 {
@@ -59,15 +60,29 @@ header {
 #leftbox {
     float: left;
     margin-left: 30px;
-    padding: 20px;
     width: 33%;
-    clear: .both;
+
 }
 
 #rightbox {
     float: right;
     margin-right: 30px;
-    padding: 20px;
     width: 33%;
-    clear: both;
+}
+
+.about-us {
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+
+footer {
+    height: 150px;
+}
+
+.social-networks i {
+    font-size: 160%;
+    display: inline;
+
 }
