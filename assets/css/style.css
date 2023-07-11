@@ -58,6 +58,12 @@ hr {
     width: 300px;
     height: 300px;
     margin: auto;
+    font-size: x-large;
+}
+
+#middlebox {
+    margin-top: 75px;
+    max-width: 100%;
 }
 
 /*
@@ -146,6 +152,7 @@ footer {
 #picture-two {
     margin: auto;
     height: 300px;
+
 }
 
 
@@ -222,3 +229,46 @@ footer {
     padding: 20px;
 
 }
+
+/* for screen sizes to 1200px*/
+
+@media screen and (max-width: 1200px) {
+
+    #leftbox,
+    #rightbox {
+        width: 50%;
+        height: 1200px;
+        font-size: 80%;
+        margin: auto;
+    }
+
+    .about-us {
+        font-size: large;
+        text-align: center;
+        height: 300px;
+
+    }
+
+    @media screen and (max-width: 950px) {
+
+        header {
+
+            height: 150px;
+            width: 65%;
+            font-size: 100%;
+            text-decoration: none;
+
+        }
+
+        header h1 {
+            width: 65%;
+            font-size: 100%;
+        }
+
+        #middlebox {
+            max-width: 65%;
+        }
+
+        #picture-two {
+            max-width: 50%;
+        }
