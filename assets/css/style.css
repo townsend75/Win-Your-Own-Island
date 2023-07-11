@@ -15,6 +15,10 @@ header {
 
 }
 
+hr {
+    border: 2px solid black
+}
+
 #head-left {
     float: left;
     margin-left: 30px;
@@ -45,19 +49,22 @@ header {
     margin: 0 auto;
 }*/
 
-.prize-pic {
-    border: 1px solid blue;
+#prize-pic {
+
     height: 600px;
-    display: inline-flexbox;
+    width: 100%;
+    display: block;
+
+
 }
 
 #leftbox {
     height: 300px;
     width: 300px;
-
     float: left;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 10px;
+
 }
 
 
@@ -69,17 +76,18 @@ header {
 #middlebox {
     height: 300px;
     width: 300px;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 30px;
 }
 
 #rightbox {
     height: 300px;
     width: 300px;
-    margin-right: 2%30px;
+    margin-right: 30px;
     float: right;
     margin-top: 30px;
     text-align: right;
+
 }
 
 .about-us {
@@ -92,6 +100,7 @@ header {
 
 footer {
     height: 150px;
+    background-color: rgba(230, 230, 112)
 }
 
 .social-networks {
@@ -101,6 +110,7 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 1%;
+    margin-top: 50px;
 
 
 }
@@ -115,23 +125,25 @@ footer {
 }
 
 #picture-two {
+    margin: auto;
     height: 300px;
-    width: 450px;
-    background: url(../images/Filicudi3.jpeg) no-repeat;
-    background-size: cover;
-    padding-top: 10px;
 }
+
+
+
 
 #text-two {
     height: 300px;
     width: 300px;
     margin: auto;
+
 }
 
 #text-three {
     height: 300px;
     width: 300px;
     margin: auto;
+
 }
 
 #text-four {
@@ -152,11 +164,12 @@ footer {
     margin: auto;
 }
 
-#filicudi-one {
+/*#filicudi-one {
     height: 300px;
     width: 300px;
     background: cover;
-}
+    margin: auto;
+}*/
 
 #text-six {
     height: 300px;
