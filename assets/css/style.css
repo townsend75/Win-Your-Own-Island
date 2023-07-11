@@ -85,7 +85,7 @@ hr {
     width: 300px;
     margin-right: 30px;
     float: right;
-    margin-top: 30px;
+    margin-bottom: 175px;
     text-align: right;
 
 }
@@ -180,11 +180,26 @@ footer {
 #form-section {
     background-color: aqua;
     background: cover;
-    height: 900px;
+    height: 150px;
     width: 100%;
 }
 
 #signup {
-    height: 750px;
+    height: 150px;
     width: 50%;
+}
+
+#photos {
+    background-color: aqua;
+    height: 750px;
+    width: 100%;
+    display: flex;
+}
+
+.island-pics-form {
+
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+
 }
