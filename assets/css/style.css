@@ -45,53 +45,47 @@ header {
     margin: 0 auto;
 }*/
 
-#prize-pic {
+.prize-pic {
     border: 1px solid blue;
-    background: url(../images/Filicudi5.jpeg) no-repeat center center;
     height: 600px;
-    display: block;
-
-
-}
-
-#prize-pic h2 {
-    text-align: center;
-    font-size: xxx-large;
-}
-
-#middlebox {
-    width: 33%;
-    margin: 0 auto;
-    padding: 10px;
-    clear: both;
-
-
+    display: inline-flexbox;
 }
 
 #leftbox {
+    height: 300px;
+    width: 300px;
+
     float: left;
-    width: 33%;
-    padding: 30px;
-    margin-right: 5px;
-    text-align: left;
-    font-size: 100%;
-
-
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
-#button {}
+
+#heading {
+    text-align: center;
+    font-size: 300%;
+}
+
+#middlebox {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
 
 #rightbox {
+    height: 300px;
+    width: 300px;
+    margin-right: 2%30px;
     float: right;
-    width: 33%;
-    margin-right: 20px;
+    margin-top: 30px;
     text-align: right;
-    font-size: 100%;
 }
 
 .about-us {
     font-size: x-large;
     text-align: center;
+    height: 300px;
 }
 
 
@@ -115,21 +109,33 @@ footer {
     display: inline;
 }
 
-#prize-desc {
-    display: block;
+.island-desc {
+    display: flex;
+    height: 300px;
 }
 
 #picture-two {
-    height: 600px;
-    width: 50%;
-    background: url(../images/Filicudi3.jpeg) no-repeat center center;
+    height: 300px;
+    width: 450px;
+    background: url(../images/Filicudi3.jpeg) no-repeat;
     background-size: cover;
+    padding-top: 10px;
 }
 
-.text-two {
-    height: 600px;
-    width: 50%;
-    float: right;
-    text-align: right;
-    display: block;
+#text-two {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+#text-three {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+#text-four {
+    height: 300px;
+    width: 300px;
+    margin: auto;
 }
