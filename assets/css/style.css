@@ -147,15 +147,21 @@ footer {
 .island-desc {
     display: flex;
     height: 450px;
+
+
 }
 
 #picture-two {
     margin: auto;
     height: 300px;
+    width: 100%;
+
 
 }
 
-
+.child {
+    min-width: auto;
+}
 
 
 #text-two {
@@ -211,8 +217,17 @@ footer {
 }
 
 #signup {
-    height: 150px;
+    height: 200px;
     width: 50%;
+    margin-left: 30px;
+}
+
+.text-input {
+    height: 30px;
+}
+
+.join-button {
+    height: 35px;
 }
 
 #photos {
@@ -249,6 +264,10 @@ footer {
 
     }
 
+    .child {
+        max-width: 60%;
+    }
+
     @media screen and (max-width: 950px) {
 
         header {
@@ -267,8 +286,12 @@ footer {
 
         #middlebox {
             max-width: 65%;
+            width: auto;
+            height: auto;
         }
 
         #picture-two {
             max-width: 50%;
+            width: auto;
+            height: auto;
         }
