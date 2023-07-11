@@ -41,6 +41,25 @@ hr {
     border-bottom: 1px solid blueviolet;
 }
 
+/* test from here*/
+
+#heading {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#prize-pic {
+    display: flex;
+    height: 600px;
+}
+
+#leftbox,
+#rightbox {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
 /*
 #island-one {
     background: url(../images/Filicudi5.jpeg) no-repeat center center;
@@ -49,7 +68,7 @@ hr {
     margin: 0 auto;
 }*/
 
-#prize-pic {
+/*#prize-pic {
 
     height: 600px;
     width: 100%;
@@ -88,7 +107,7 @@ hr {
     margin-bottom: 175px;
     text-align: right;
 
-}
+}*/
 
 .about-us {
     font-size: x-large;
