@@ -3,6 +3,9 @@
 Serial Winners is a fictitious competition website, offering particapants the chance to win an island located off the northern coast of Sicily.  
 {See homepage screenshot here} (assets/readme-images/Serial Winners Homepage Top.png)
 
+[Link to site: ](https://townsend75.github.io/Win-an-island/)
+[Link to repository:](https://github.com/townsend75/Win-an-island.git)
+
 ## Features:
 
 --header--

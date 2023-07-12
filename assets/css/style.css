@@ -6,6 +6,8 @@ a {
     text-decoration: none;
 }
 
+
+
 header {
     background-color: rgb(230, 230, 112);
     height: 150px;
@@ -41,7 +43,7 @@ hr {
     border-bottom: 1px solid blueviolet;
 }
 
-/* test from here*/
+
 
 #heading {
     text-align: center;
@@ -59,70 +61,27 @@ hr {
     height: 300px;
     margin: auto;
     font-size: x-large;
+
 }
 
 #rightbox {
     text-align: right;
+
 }
 
 #middlebox {
     margin-top: 75px;
     max-width: 100%;
-}
-
-/*
-#island-one {
-    background: url(../images/Filicudi5.jpeg) no-repeat center center;
-    height: 600px;
-    width: 33%;
-    margin: 0 auto;
-}*/
-
-/*#prize-pic {
-
-    height: 600px;
-    width: 100%;
-    display: block;
-
-
-}
-
-#leftbox {
-    height: 300px;
-    width: 300px;
-    float: left;
-    margin-top: 30px;
-    margin-left: 10px;
-
+    
 }
 
 
-#heading {
-    text-align: center;
-    font-size: 300%;
-}
-
-#middlebox {
-    height: 300px;
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-
-#rightbox {
-    height: 300px;
-    width: 300px;
-    margin-right: 30px;
-    float: right;
-    margin-bottom: 175px;
-    text-align: right;
-
-}*/
 
 .about-us {
     font-size: x-large;
     text-align: center;
     height: 300px;
+
 }
 
 
@@ -150,17 +109,17 @@ footer {
 
 .island-desc {
     display: flex;
-    height: 450px;
+    /*height: 450px;*/
     width: 100%;
-
-
-
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
 
 #picture-two {
     margin: auto;
-    height: 300px;
+
     width: 300px;
 
 
@@ -172,6 +131,7 @@ footer {
     width: 300px;
     margin: auto;
     overflow-y: scroll;
+
 }
 
 .image {
@@ -201,8 +161,10 @@ footer {
 
 .prize-details {
 
-    height: 450px;
+
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 #text-five {
@@ -211,12 +173,7 @@ footer {
     margin: auto;
 }
 
-/*#filicudi-one {
-    height: 300px;
-    width: 300px;
-    background: cover;
-    margin: auto;
-}*/
+
 
 #text-six {
     height: 300px;
@@ -270,7 +227,7 @@ label {
 
 }
 
-/* for screen sizes to 1200px*/
+
 
 @media screen and (max-width: 1200px) {
 
@@ -289,15 +246,15 @@ label {
 
     }
 
-    #picture-two {
+    /*#picture-two {
         margin: auto;
         height: 300px;
         width: 100%;
 
 
-    }
+    }*/
 
-    .child {
+    /*.child {
 
         height: 300px;
         width: 100%;
@@ -305,10 +262,10 @@ label {
         overflow-y: scroll;
     }
 
-    image {
+    /*image {
         min-width: 0;
         width: 50%;
-    }
+    }*/
 
 
     hr {
@@ -338,16 +295,16 @@ label {
         height: auto;
     }
 
-    #picture-two {
+    /*#picture-two {
         max-width: 50%;
         width: auto;
         height: auto;
-    }
+    }*/
 
-    .child {
+    /*.child {
         max-width: 60%;
         overflow-y: scroll;
-    }
+    }*/
 
     hr {
         display: none
