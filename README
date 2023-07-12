@@ -2,16 +2,48 @@
 # Serial Winners
 
 Serial Winners is a fictitious competition website, offering particapants the chance to win an island located off the northern coast of Sicily.  
-{See homepage screenshot here} (assets/readme-images/)
-##Features:
+{See homepage screenshot here} (assets/readme-images/Serial Winners Homepage Top.png)
+
+
+## Features:
 
 The site consists of three pages. All three pages contain the same header and footer, listing the name of the business, three menu buttons and links to social media sites (Facebook, Instagram, Youtube and Twitter).
-Screenshot 2023-07-11 at 11.34.24 (2).png
-In addition, the homepage has a button leading directly to a description of the island and the prize.
+
+In addition, the homepage contains a button embedded in the text leading directly to a description of the island and the prize.
+The competition entry page contains a form with text inputs for first name, last name and email, a submit button and a radio form about where the user may have discovered the site.
+There are a number of images on all three pages, showing the beauty of the island in question. 
 
 
-Site Goals:
+# UX/UI
+
+
+## Site Goals:
 
 The goal of the site is to tempt a large amount of traffic by offering a huge prize, At the same time, the site aims at providing information abaout the island and the surrounding region, possibly encouraging people to visit the area in future. 
+
+### Design Choices
+
+With my limited ecperience, I chose a simple, clean design structure. The header and footer both have a pale yellow background, which complements the Aeolian island picture on each page. Using flex displays allowed me to keep everything neatly spaced throughout the project. 
+
+#### User Stories
+- People will obviously want to win the main "prize" of an island.
+-Users should also be curious about the island itself and the region it is in. 
+
+#### Testing 
+
+| Feature | Expect | Action | Result |
+| ------- | ------ | ------ | ------ |
+| Home nav button | Homepage should open | Click home button | Homepage loaded correctly |
+The Prize button | second page with island details should open | click prize button | Page loaded correctly |
+Enter button | signup page should open | click enter competition button | page opened correctly |
+| here button in text | second page with island details to open | click "here" button | page opened corectly |
+form | text input should be possible in first two inputs | filled in first and last name | Names filled in correctly |
+email input | only email should be entered | entered text with no email address | was reminded to enter corect email address |
+radio form | only one option should be possible to choose | choose various options | radio function works as expected | 
+
+
+##### Deployment 
+
+
 
 
