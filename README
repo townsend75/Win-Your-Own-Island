@@ -37,15 +37,21 @@ With my limited ecperience, I chose a simple, clean design structure. The header
 | Home nav button | Homepage should open | Click home button | Homepage loaded correctly |
 The Prize button | second page with island details should open | click prize button | Page loaded correctly |
 Enter button | signup page should open | click enter competition button | page opened correctly |
-| here button in text | second page with island details to open | click "here" button | page opened corectly |
 form | text input should be possible in first two inputs | filled in first and last name | Names filled in correctly |
 email input | only email should be entered | entered text with no email address | was reminded to enter corect email address |
 radio form | only one option should be possible to choose | choose various options | radio function works as expected | 
+Social media icons | Expect new window for social media page to open | click on each icon in turn | Social media websites opened as ecpected |
 
 Bugs:
 
 I spent a long time trying to resize the images and paragraphs as the pages shrunk for use with smaller screens. I'm not sure if I have suceeded 100% with my methodology but i tried my best!
 
+Validator testing:
+
+HTML
+-No errors were returned when passing through the official W3C validator
+CSS
+-No errors were found when passing through the official (Jigsaw) validator
 
 ##### Deployment 
 

@@ -226,7 +226,6 @@ footer {
 
 #form-section {
     background-color: aqua;
-    background: cover;
     height: 450px;
     width: 100%;
 }
@@ -315,40 +314,42 @@ label {
     hr {
         display: none
     }
+}
 
-    @media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) {
 
-        header {
+    header {
 
-            height: 150px;
-            width: 100%;
-            font-size: 100%;
-            text-decoration: none;
+        height: 150px;
+        width: 100%;
+        font-size: 100%;
+        text-decoration: none;
 
-        }
+    }
 
-        header h1 {
-            width: 65%;
-            font-size: 100%;
-        }
+    header h1 {
+        width: 65%;
+        font-size: 100%;
+    }
 
-        #middlebox {
-            max-width: 65%;
-            width: auto;
-            height: auto;
-        }
+    #middlebox {
+        max-width: 65%;
+        width: auto;
+        height: auto;
+    }
 
-        #picture-two {
-            max-width: 50%;
-            width: auto;
-            height: auto;
-        }
+    #picture-two {
+        max-width: 50%;
+        width: auto;
+        height: auto;
+    }
 
-        .child {
-            max-width: 60%;
-            overflow-y: scroll;
-        }
+    .child {
+        max-width: 60%;
+        overflow-y: scroll;
+    }
 
-        hr {
-            display: none
-        }
+    hr {
+        display: none
+    }
+}
