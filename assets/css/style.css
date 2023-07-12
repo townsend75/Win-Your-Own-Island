@@ -61,6 +61,10 @@ hr {
     font-size: x-large;
 }
 
+#rightbox {
+    text-align: right;
+}
+
 #middlebox {
     margin-top: 75px;
     max-width: 100%;
@@ -147,6 +151,9 @@ footer {
 .island-desc {
     display: flex;
     height: 450px;
+    width: 100%;
+
+
 
 
 }
@@ -154,15 +161,23 @@ footer {
 #picture-two {
     margin: auto;
     height: 300px;
-    width: 100%;
+    width: 300px;
 
 
 }
 
 .child {
-    min-width: auto;
+
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    overflow-y: scroll;
 }
 
+.image {
+    min-width: 0;
+    width: 100%
+}
 
 #text-two {
     height: 300px;
@@ -212,22 +227,33 @@ footer {
 #form-section {
     background-color: aqua;
     background: cover;
-    height: 150px;
+    height: 450px;
     width: 100%;
 }
 
 #signup {
-    height: 200px;
+    height: 350px;
     width: 50%;
     margin-left: 30px;
+    margin-top: 10px
+}
+
+label {
+    margin-top: 10px;
 }
 
 .text-input {
     height: 30px;
+    margin-top: 10px;
 }
 
 .join-button {
     height: 35px;
+    margin-top: 20px;
+}
+
+#survey {
+    margin-top: 20px;
 }
 
 #photos {
@@ -253,7 +279,7 @@ footer {
     #rightbox {
         width: 50%;
         height: 1200px;
-        font-size: 80%;
+        font-size: 100%;
         margin: auto;
     }
 
@@ -264,8 +290,30 @@ footer {
 
     }
 
+    #picture-two {
+        margin: auto;
+        height: 300px;
+        width: 100%;
+
+
+    }
+
     .child {
-        max-width: 60%;
+
+        height: 300px;
+        width: 100%;
+        margin: auto;
+        overflow-y: scroll;
+    }
+
+    image {
+        min-width: 0;
+        width: 50%;
+    }
+
+
+    hr {
+        display: none
     }
 
     @media screen and (max-width: 950px) {
@@ -273,7 +321,7 @@ footer {
         header {
 
             height: 150px;
-            width: 65%;
+            width: 100%;
             font-size: 100%;
             text-decoration: none;
 
@@ -294,4 +342,13 @@ footer {
             max-width: 50%;
             width: auto;
             height: auto;
+        }
+
+        .child {
+            max-width: 60%;
+            overflow-y: scroll;
+        }
+
+        hr {
+            display: none
         }

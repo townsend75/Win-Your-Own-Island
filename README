@@ -1,6 +1,10 @@
+
+#Serial Winners
+
 Serial Winners is a fictitious competition website, offering particapants the chance to win an island located off the northern coast of Sicily.  
 
-Features:
+##Features:
+
 The site consists of three pages. All three pages contain the same header and footer, listing the name of the business, three menu buttons and links to social media sites (Facebook, Instagram, Youtube and Twitter).
 Screenshot 2023-07-11 at 11.34.24 (2).png
 In addition, the homepage has a button leading directly to a description of the island and the prize.
