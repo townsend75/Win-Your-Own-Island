@@ -6,11 +6,13 @@ a {
     text-decoration: none;
 }
 
-
+html {
+    height: 100vh;
+}
 
 header {
     background-color: rgb(230, 230, 112);
-    height: 150px;
+    height: 200px;
     width: 100%;
     font-size: 200%;
     text-decoration: none;
@@ -52,7 +54,7 @@ hr {
 
 #prize-pic {
     display: flex;
-    height: 600px;
+    height: auto;
 }
 
 #leftbox,
@@ -72,7 +74,15 @@ hr {
 #middlebox {
     margin-top: 75px;
     max-width: 100%;
-    
+    text-align: center;
+
+}
+
+#island {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
@@ -109,11 +119,11 @@ footer {
 
 .island-desc {
     display: flex;
-    /*height: 450px;*/
     width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+
 
 }
 
@@ -127,7 +137,7 @@ footer {
 
 .child {
 
-    height: 300px;
+    height: 450px;
     width: 300px;
     margin: auto;
     overflow-y: scroll;
@@ -231,10 +241,32 @@ label {
 
 @media screen and (max-width: 1200px) {
 
+
+
+
+    header {
+        background-color: rgb(230, 230, 112);
+        width: 100%;
+        font-size: 200%;
+        text-decoration: none;
+        height: 200px;
+    }
+
+
+
+    #island {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+
     #leftbox,
     #rightbox {
         width: 50%;
-        height: 1200px;
+        /* height: 300px;*/
         font-size: 100%;
         margin: auto;
     }
@@ -246,67 +278,55 @@ label {
 
     }
 
-    /*#picture-two {
-        margin: auto;
-        height: 300px;
-        width: 100%;
-
-
-    }*/
-
-    /*.child {
-
-        height: 300px;
-        width: 100%;
-        margin: auto;
-        overflow-y: scroll;
+    #island {
+        /*height: 300px;*/
     }
-
-    /*image {
-        min-width: 0;
-        width: 50%;
-    }*/
 
 
     hr {
         display: none
     }
-}
 
-@media screen and (max-width: 950px) {
 
-    header {
-
-        height: 150px;
-        width: 100%;
-        font-size: 100%;
-        text-decoration: none;
-
+    footer {
+        height: 200px;
     }
 
-    header h1 {
-        width: 65%;
-        font-size: 100%;
-    }
 
-    #middlebox {
-        max-width: 65%;
-        width: auto;
-        height: auto;
-    }
+    @media screen and (max-width: 950px) {
 
-    /*#picture-two {
+        header {
+
+            height: 150px;
+            width: 100%;
+            font-size: 100%;
+            text-decoration: none;
+
+        }
+
+        header h1 {
+            width: 65%;
+            font-size: 100%;
+        }
+
+        #middlebox {
+            max-width: 65%;
+            width: auto;
+            height: auto;
+        }
+
+        /*#picture-two {
         max-width: 50%;
         width: auto;
         height: auto;
     }*/
 
-    /*.child {
+        /*.child {
         max-width: 60%;
         overflow-y: scroll;
     }*/
 
-    hr {
-        display: none
+        hr {
+            display: none
+        }
     }
-}

@@ -6,6 +6,15 @@ Serial Winners is a fictitious competition website, offering particapants the ch
 [Link to site: ](https://townsend75.github.io/Win-an-island/)
 [Link to repository:](https://github.com/townsend75/Win-an-island.git)
 
+#Table of Contents
+
+1. [## Features](https://github.com/townsend75/Win-an-island/blob/main/readme.md#features)
+2. [#UX/UI](https://github.com/townsend75/Win-an-island/blob/main/readme.md#uxui)
+3. [## Testing](https://github.com/townsend75/Win-an-island/blob/main/readme.md#testing)
+4. [## Deployment](https://github.com/townsend75/Win-an-island/blob/main/readme.md#deployment)
+5. [## Sources](https://github.com/townsend75/Win-an-island/blob/main/readme.md#sources)
+6. [## Future features and Considerations](https://github.com/townsend75/Win-an-island/blob/main/readme.md#future-features-and-considerations)
+
 ## Features:
 
 --header--
@@ -44,7 +53,7 @@ With my limited ecperience, I chose a simple, clean design structure. The header
 - People will obviously want to win the main "prize" of an island.
   -Users should also be curious about the island itself and the region it is in.
 
-#### Testing
+## Testing
 
 | Feature                                                                                                                                                    | Expect                                            | Action                             | Result                                     |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------- | ------------------------------------------ |
@@ -74,7 +83,7 @@ HTML
 CSS
 -No errors were found when passing through the official (Jigsaw) validator
 
-##### Deployment
+## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy were as follows:
 Open the settings tab.
@@ -82,7 +91,7 @@ Select the main branch from the source section
 The page then refreshes with a link to a website, indicating a successfull deployment.
 The link to the site is :https://townsend75.github.io/Win-an-island/
 
-##### Sources
+### Sources
 
 Content:
 I referenced the code used in all of the teaching videos to some extent, particularly when creating the form element. The menu navigation is based on the love-running project.
@@ -90,7 +99,7 @@ The factual information on the island was gleaned from Wikipedia pages about Fil
 The photos were taken from from two different sources. One from google images and the rest from istockphotos.com
 The links to social media include icons taken from fontawesome.com, as was described in the love-running tutorial.
 
-###### Future Features and considerations
+### Future Features and considerations
 
 Were I to build a real competition website, I am aware that there would have to be a separate page listing the terms and conditions of the competition as well as all the legal necessities.
 I would also include more links to information about the area, including links to hotel websites, travel information and things to do in the area.
