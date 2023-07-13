@@ -6,9 +6,6 @@ a {
     text-decoration: none;
 }
 
-html {
-    height: 100vh;
-}
 
 header {
     background-color: rgb(230, 230, 112);
@@ -18,6 +15,7 @@ header {
     text-decoration: none;
 
 }
+
 
 hr {
     border: 2px solid black
@@ -266,7 +264,6 @@ label {
     #leftbox,
     #rightbox {
         width: 50%;
-        /* height: 300px;*/
         font-size: 100%;
         margin: auto;
     }
@@ -276,10 +273,6 @@ label {
         text-align: center;
         height: 300px;
 
-    }
-
-    #island {
-        /*height: 300px;*/
     }
 
 
@@ -314,17 +307,6 @@ label {
             width: auto;
             height: auto;
         }
-
-        /*#picture-two {
-        max-width: 50%;
-        width: auto;
-        height: auto;
-    }*/
-
-        /*.child {
-        max-width: 60%;
-        overflow-y: scroll;
-    }*/
 
         hr {
             display: none

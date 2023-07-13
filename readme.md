@@ -75,6 +75,7 @@ With my limited ecperience, I chose a simple, clean design structure. The header
 Bugs:
 
 I spent a long time trying to resize the images and paragraphs as the pages shrunk for use with smaller screens. I'm not sure if I have suceeded 100% with my methodology but I tried my best!
+Update: After a long session with my mentor re-sizing certain elements for smaller screens, the full sized second page doesn't quite reach the bottom of the screen. I have sadly run out of time to address this issue. I tried everything I could think of but nothing works, even though the html meta data should ensure the screen is filled.
 
 Validator testing:
 
