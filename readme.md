@@ -17,22 +17,29 @@ Serial Winners is a fictitious competition website, offering particapants the ch
 
 ## Features:
 
---header--
-Featured on all three pages, includes the site logo and links to all three pages. The header is identical oon each page. The page currently being viewed is underling in the menu.
+### header
 
---landing page--
+[Header](assets/images/Header.png)
+
+Featured on all three pages, includes the site logo and links to all three pages. The header is identical on each page. The page currently being viewed is underlined in the menu.
+
+### landing page
+
+[Homepage on chrome](assets/images/Homepage%20Google%20Chrome.png)
 
 The landing page features a photo of the island in the competition and introduces the concept of winning an island. There is also a section about the organisers of the competition.
 
---the prize page\_\_
+### the prize page
 
 Features information about the island itself and the surrounding area, photos of the island from various perpectives and details about the specifics of the prize to be won.
 
---enter competition page\_\_
+### enter competition page
 
 features a simple signup form, a radio style survey and more pictures of the island.
 
---footer--
+### footer
+
+[Footer](assets/images/Footer.png)
 
 The footer is also featured on every page and includes icon style links to the four main social media sites, which all open in separate browser windows.
 
@@ -46,31 +53,28 @@ The goal of the site is to tempt a large amount of traffic by offering a huge pr
 
 ### Design Choices
 
-With my limited ecperience, I chose a simple, clean design structure. The header and footer both have a pale yellow background, which complements the Aeolian island pictures on each page. Using flex displays allowed me to keep everything neatly spaced throughout the project.
+With my limited experience, I chose a simple, clean design structure. The header and footer both have a pale yellow background, which complements the Aeolian island pictures on each page. Using flex displays allowed me to keep everything neatly spaced throughout the project.
 
 #### User Stories
 
-- People will obviously want to win the main "prize" of an island.
-  -Users should also be curious about the island itself and the region it is in.
+- As a user, I want a chance to win my own island.
+- As a user, I would like to find out as much about the island as possible from the site.
+- As a user, I want to be able to register for the competition on the site via a sign up form.
+- As an admin, I want to have as many competition entries as possible.
+- As an admin, I want to provide information about the island in an attempt to attract visitors.
 
 ## Testing
 
-| Feature                                                                                                                                                    | Expect                                            | Action                             | Result                                     |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------- | ------------------------------------------ |
-| Home nav button                                                                                                                                            | Homepage should open                              | Click home button                  | Homepage loaded correctly                  |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |                                                   |
-| The Prize button                                                                                                                                           | second page with island details should open       | click prize button                 | Page loaded correctly                      |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Enter button                                                                                                                                               | signup page should open                           | click enter competition button     | page opened correctly                      |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| form                                                                                                                                                       | text input should be possible in first two inputs | filled in first and last name      | Names filled in correctly                  |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| email input                                                                                                                                                | only email should be entered                      | entered text with no email address | was reminded to enter corect email address |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| radio form                                                                                                                                                 | only one option should be possible to choose      | choose various options             | radio function works as expected           |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Social media icons                                                                                                                                         | Expect new window for social media page to open   | click on each icon in turn         | Social media websites opened as ecpected   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Feature                | Expect                                             | Action                                 | Result                                           |
+| ---------------------- | -------------------------------------------------- | -------------------------------------- | ------------------------------------------------ |
+| Home nav link          | Homepage should be opened                          | Click home button                      | Homepage loaded correctly                        |
+| The prize navlink      | Prize page should open                             | click prize link                       | prize page opens as expected                     |
+| Enter competition page | Entry form page should open                        | Click enter link                       | Entry page loads as expected                     |
+| Form                   | Input should be possible in first two input fields | Entered first and last names           | Names filled in correctly                        |
+| Email input            | Only valid email address permitted                 | entered text with no email address     | received reminder to enter correct email address |
+| Email input            | Only valid email address permitted                 | Entered valid email address            | Address was accepted                             |
+| Radio button           | It should only be possible to select one option    | Selected various options               | Radio function works as expected                 |
+| Social media icons     | New window should open for each icon clicked       | Clicked on all four social media icons | Pages opened as expected                         |
 
 Bugs:
 
@@ -81,8 +85,32 @@ Validator testing:
 
 HTML
 -No errors were returned when passing through the official W3C validator
+
+[index.html validator](assets/images/Index.html%20validator.png)
+
+[island.html validator](assets/images/island.html%20validator.png)
+
+[form.html validator](assets/images/Form.html%20validator.png)
+
 CSS
+
 -No errors were found when passing through the official (Jigsaw) validator
+
+[CSS Validator](assets/images/CSS%20Validator.png)
+
+All pages scored highly on the Google Chrome Lighthouse Inspector in both the desktop and mobile versions
+
+[Homepage desktop](assets/images/Homepage%20desktop.png)
+
+[Homepage mobile](assets/images/Homepage%20mobile.png)
+
+[Prize page desktop](assets/images/Prize%20page%20desktop.png)
+
+[Prize page mobile](assets/images/Prize%20page%20mobile.png)
+
+[Form page desktop](assets/images/Form%20page%20desktop.png)
+
+[Form page mobile](assets/images/Form%20page%20mobile.png)
 
 ## Deployment
 
@@ -99,6 +127,8 @@ I referenced the code used in all of the teaching videos to some extent, particu
 The factual information on the island was gleaned from Wikipedia pages about Filicudi and also the Aeolian islands.
 The photos were taken from from two different sources. One from google images and the rest from istockphotos.com
 The links to social media include icons taken from fontawesome.com, as was described in the love-running tutorial.
+I referenced stack overflow for many questions and found various suggestions which helped further my understanding of the code. 
+My mentor, Sherly S Goldberg was a great help throughout the project and my thanks go to her for both her advice and also many usefule articles that she shared with me. 
 
 ### Future Features and considerations
 
