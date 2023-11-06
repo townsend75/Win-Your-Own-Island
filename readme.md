@@ -4,6 +4,7 @@ Serial Winners is a fictitious competition website, offering particapants the ch
 {See homepage screenshot here} (assets/readme-images/Serial Winners Homepage Top.png)
 
 [Link to site: ](https://townsend75.github.io/Win-an-island/)
+
 [Link to repository:](https://github.com/townsend75/Win-an-island.git)
 
 #Table of Contents
@@ -118,7 +119,7 @@ The site was deployed to GitHub pages. The steps to deploy were as follows:
 Open the settings tab.
 Select the main branch from the source section
 The page then refreshes with a link to a website, indicating a successfull deployment.
-The link to the site is :https://townsend75.github.io/Win-an-island/
+The link to the site is https://townsend75.github.io/Win-an-island/
 
 ### Sources
 
